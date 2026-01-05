@@ -7,8 +7,8 @@ const f1 = () => {
 
 const f2 = () => {
     return new Promise((resolve, reject) => {
-        //resolve('f2 result');
-        reject('f2 error');
+        resolve('f2 result');
+        //reject('f2 error');
     })
 }
 
